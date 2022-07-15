@@ -344,6 +344,10 @@ export class Checkout extends PureComponent {
     render() {
         return (
             <main block="Checkout">
+                <CheckoutSteps
+                    step={this.props.checkoutStep}
+                    stepMap={this.stepMap}
+                />
                 <ContentWrapper
                     wrapperMix={{ block: "Checkout", elem: "Wrapper" }}
                     label={__("Checkout page")}

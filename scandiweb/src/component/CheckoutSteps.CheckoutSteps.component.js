@@ -1,14 +1,26 @@
 export class CheckoutSteps extends PureComponent {
 
+    formatStepText(step) {
+        return step.toLowerCase().replace("_step", "").trim();
+    }
+
+    formatStepValue(step) {
+        return step.toLowerCase().replace("step", "").trim();
+    }
+
     render() {
-        const { stepMap } = this.props;
+        const { stepMap, step } = this.props;
         const steps = Object.keys(stepMap);
         const newStepMap = steps.map((item) => stepMap[item]);
+        const stepValue = this.formatStepText(step);
         
         return (
             <div block="Checkout-steps" aria-label="CheckoutSteps">
                 {newStepMap.map((newStep, index) => {
-                    const currentStepActive =  true;
+                    const value = this.formatStepValue(newStep.title.value);
+                    const currentStepIndex = newStepMap.map((item,index) => this.formatStepValue(item.title.value) === stepValue ? index : null).filter(value => value !== null)
+                    const currentStepActive = currentStepIndex.length ? index <= currentStepIndex[0] : true;
+                    const lastStepActive = currentStepIndex.length ? index < currentStepIndex[0] : true;
                     
                     return (
                         <>
@@ -27,7 +39,9 @@ export class CheckoutSteps extends PureComponent {
                                 }
                             >
                                 <div block="current-step-container">
-                                    <span>{index + 1}</span>
+                                    {lastStepActive ? 
+                                    <span block="last-step">✓</span> :
+                                    <span>{index + 1}</span>}
                                 </div>
                                 <p>{value}</p>
                             </div>
