@@ -30,14 +30,14 @@
 
 ## Installation
 
-yarn create scandipwa-app <FOLDER>
-*Enter to the project directory*
-cd <FOLDER>
-*Downgrade ScandiPWA*
-yarn add @scandipwa/scandipwa@4.5.1
-copy `composer.json` content from this repository to your own
-*config*
-open `package.json`, find the `proxy` field and paste **<https://demo100-ors-1588667385-swpwa451-zco.scandipwa.cloud/>**
+yarn create scandipwa-app <FOLDER> <br>
+*Enter to the project directory* <br>
+cd <FOLDER> <br>
+*Downgrade ScandiPWA* <br>
+yarn add @scandipwa/scandipwa@4.5.1 <br>
+copy `composer.json` content from this repository to your own <br>
+*config* <br>
+open `package.json`, find the `proxy` field and paste **<https://demo100-ors-1588667385-swpwa451-zco.scandipwa.cloud/>** <br>
 use `yarn` or `npm i` command.
 
 This package contains new ScandiPWA theme sources. Your parent theme is `@scandipwa/scandipwa`.
