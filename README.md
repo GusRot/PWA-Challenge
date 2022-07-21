@@ -30,13 +30,13 @@
 
 ## Installation
 
-yarn create scandipwa-app <FOLDER> <br>
-*Enter to the project directory* <br>
-cd <FOLDER> <br>
-*Downgrade ScandiPWA* <br>
+yarn create scandipwa-app `my-app` <br>
+***Enter to the project directory*** <br>
+cd `my-app` <br>
+***Downgrade ScandiPWA*** <br>
 yarn add @scandipwa/scandipwa@4.5.1 <br>
 copy `composer.json` content from this repository to your own <br>
-*config* <br>
+***config*** <br>
 open `package.json`, find the `proxy` field and paste **<https://demo100-ors-1588667385-swpwa451-zco.scandipwa.cloud/>** <br>
 use `yarn` or `npm i` command.
 
