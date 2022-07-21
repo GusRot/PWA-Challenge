@@ -1,4 +1,4 @@
-### Version of README [English](./README-en.md)
+### Version of README [Portuguese](./README.md)
 
 <div style="display: flex; gap:1rem;">
 <a href="#">
