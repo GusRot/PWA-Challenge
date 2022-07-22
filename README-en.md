@@ -24,9 +24,8 @@
 ## Challenge Results
 
 1- My customizaion is located at `src` folder like any PWA aplication.
-<div>
-    <img style="height: 120px" src="images/challengeRequisites.png">
-</div>
+
+<!-- [![Watch the video](https://img.youtube.com/vi/KTequZCtP1c/maxresdefault.jpg)](https://youtu.be/KTequZCtP1c) -->
 
 ## Installation
 

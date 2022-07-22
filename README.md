@@ -9,26 +9,25 @@
 </a>
 </div>
 
-# PWA-CheckoutStep-Challenge
+# PWA-CheckoutStep-Desafio
 
-## Challenge Requisites
+## Requisitos do Desafio
 
 <div>
     <img style="height: 120px" src="images/challengeRequisites.png">
 </div>
-1. Progressbar must match the website primary color <br>
-2. The last step checkpoint doesn't render, you fill the progressbar to the end instead. So when you have shipping, billing and success steps, you render two checkpoints for shipping and billing, but on the last (third) step you fill the progressbar to the end so it becomes completed <br>
-3. Components should be reusable. No hardcode is allowed, all data is provided in the app. It should support any amount of steps. It should be possible to take this component out and put it to any other ScandiPWA project without any modifications <br>
-4. When you complete a step, the progressbar should fill the next segment with animation <br>
+1. A barra de progresso deve corresponder à cor primária do site <br>
+2. O último checkpoint não é renderizado, você preenche a barra de progresso até o final. Quando você tem etapas de envio, cobrança e sucesso, você renderiza dois pontos de verificação para envio e cobrança, mas na última (terceira) etapa você preenche a barra de progresso até o final para que ela seja concluída <br>
+3. Os componentes devem ser reutilizáveis. Todos os dados são fornecidos no aplicativo. Ele deve suportar qualquer quantidade de etapas. Deve ser possível retirar este componente e colocá-lo em qualquer outro projeto sem modificação <br>
+4. Ao concluir uma etapa, a barra de progresso deve preencher o próximo segmento com animação <br>
 
-## Challenge Results
+## Resultados do Desafio
 
-1- My customizaion is located at `src` folder like any PWA aplication.
-<div>
-    <img style="height: 120px" src="images/challengeRequisites.png">
-</div>
+1- Minha customização está localizada na pasta `src` como qualquer aplicativo PWA.
 
-## Installation
+<!-- [![Watch the video](https://img.youtube.com/vi/KTequZCtP1c/maxresdefault.jpg)](https://youtu.be/KTequZCtP1c) -->
+
+## Instalação
 
 yarn create scandipwa-app `my-app` <br>
 ***Enter to the project directory*** <br>
