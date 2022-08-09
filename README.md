@@ -25,7 +25,7 @@
 
 1- Minha customização está localizada na pasta `src` como qualquer aplicativo PWA.
 
-<!-- [![Watch the video](https://img.youtube.com/vi/KTequZCtP1c/maxresdefault.jpg)](https://youtu.be/KTequZCtP1c) -->
+[![Watch the video](https://img.youtube.com/vi/_ucZ_8fuhYk/maxresdefault.jpg)](https://youtu.be/_ucZ_8fuhYk)
 
 ## Instalação
 

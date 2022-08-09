@@ -25,7 +25,7 @@
 
 1- My customizaion is located at `src` folder like any PWA aplication.
 
-<!-- [![Watch the video](https://img.youtube.com/vi/KTequZCtP1c/maxresdefault.jpg)](https://youtu.be/KTequZCtP1c) -->
+[![Watch the video](https://img.youtube.com/vi/_ucZ_8fuhYk/maxresdefault.jpg)](https://youtu.be/_ucZ_8fuhYk)
 
 ## Installation
 
